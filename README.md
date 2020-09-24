@@ -38,6 +38,8 @@ Table of Contents
    * http://www.offensive-security.com/metasploit-unleashed/ - Metasploit Unleashed
    * http://www.cl.cam.ac.uk/~rja14/book.html - Security Engineering
    * https://www.feistyduck.com/library/openssl-cookbook/ - OpenSSL Cookbook
+   * https://www.manning.com/books/real-world-cryptography - Learn and apply cryptographic techniques.
+
 
 ## Documentation
 
@@ -48,7 +50,10 @@ Table of Contents
 
 ## Tools
 
+   * https://spyse.com/ - OSINT search engine that provides fresh data about the entire web, storing all data in its own DB, interconnect finding data and has some cool features. 
    * http://www.metasploit.com/ - World's most used penetration testing software
+   * https://findsubdomains.com - Online subdomains scanner service with lots of additional data. works using OSINT.
+   * https://github.com/bjeborn/basic-auth-pot HTTP Basic Authentication honeyPot.
    * http://www.arachni-scanner.com/ - Web Application Security Scanner Framework
    * https://github.com/sullo/nikto - Nikto web server scanner
    * http://www.tenable.com/products/nessus-vulnerability-scanner - Nessus Vulnerability Scanner
@@ -82,6 +87,7 @@ Table of Contents
    * http://www.websecurify.com Websecurify
    * http://sourceforge.net/projects/grendel/ Grendel-scan
    * https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project DirBuster
+   * https://tools.kali.org/web-applications/gobuster Directory/file and DNS busting tool written in Go
    * http://www.edge-security.com/wfuzz.php Wfuzz
    * http://wapiti.sourceforge.net wapiti
    * https://github.com/neuroo/grabber Grabber
@@ -116,6 +122,7 @@ Table of Contents
    * https://github.com/urbanadventurer/WhatWeb WhatWeb - Next generation web scanner
    * https://www.shodan.io/ Shodan - The search engine for find vulnerable servers
    * https://github.com/WangYihang/Webshell-Sniper A webshell manager via terminal
+   * https://github.com/nil0x42/phpsploit PhpSploit - Full-featured C2 framework which silently persists on webserver via evil PHP oneliner
    
 ## Cheat Sheets
 
@@ -130,7 +137,7 @@ Table of Contents
    * `docker pull kalilinux/kali-linux-docker` [official Kali Linux](https://hub.docker.com/r/kalilinux/kali-linux-docker/)
    * `docker pull owasp/zap2docker-stable` - [official OWASP ZAP](https://github.com/zaproxy/zaproxy)
    * `docker pull wpscanteam/wpscan` - [official WPScan](https://hub.docker.com/r/wpscanteam/wpscan/)
-   * `docker pull pandrew/metasploit` - [docker-metasploit](https://hub.docker.com/r/pandrew/metasploit/)
+   * `docker pull metasploitframework/metasploit-framework` - [docker-metasploit](https://hub.docker.com/r/metasploitframework/metasploit-framework/)
    * `docker pull citizenstig/dvwa` - [Damn Vulnerable Web Application (DVWA)](https://hub.docker.com/r/citizenstig/dvwa/)
    * `docker pull wpscanteam/vulnerablewordpress` - [Vulnerable WordPress Installation](https://hub.docker.com/r/wpscanteam/vulnerablewordpress/)
    * `docker pull hmlio/vaas-cve-2014-6271` - [Vulnerability as a service: Shellshock](https://hub.docker.com/r/hmlio/vaas-cve-2014-6271/)
@@ -139,8 +146,9 @@ Table of Contents
    * `docker pull usertaken/archlinux-pentest-lxde` - [Arch Linux Penetration Tester](https://hub.docker.com/r/usertaken/archlinux-pentest-lxde/)
    * `docker pull diogomonica/docker-bench-security` - [Docker Bench for Security](https://hub.docker.com/r/diogomonica/docker-bench-security/)
    * `docker pull ismisepaul/securityshepherd` - [OWASP Security Shepherd](https://hub.docker.com/r/ismisepaul/securityshepherd/)
-   * `docker pull danmx/docker-owasp-webgoat` - [OWASP WebGoat Project docker image](https://hub.docker.com/r/danmx/docker-owasp-webgoat/)
+   * `docker pull danmx/docker-owasp-webgoat` - [OWASP WebGoat Project docker image](https://hub.docker.com/r/webgoat/goatandwolf)
    * `docker pull citizenstig/nowasp` - [OWASP Mutillidae II Web Pen-Test Practice Application](https://hub.docker.com/r/citizenstig/nowasp/)
+   * `docker pull aaaguirre/pentest` - [Docker for pentest](https://github.com/aaaguirrep/pentest)
 
 ## Vulnerabilities
 
@@ -175,7 +183,7 @@ Table of Contents
    * http://demo.testfire.net/ - Altoro Mutual
 
 ## Labs
-
+   * https://portswigger.net/web-security - Web Security Academy: Free Online Training from PortSwigger
    * http://www.cis.syr.edu/~wedu/seed/all_labs.html - Developing Instructional Laboratories for Computer SEcurity EDucation
    * https://www.vulnhub.com/ - Virtual Machines for Localhost Penetration Testing.
    * https://pentesterlab.com/ - PentesterLab is an easy and great way to learn penetration testing.
@@ -195,11 +203,13 @@ Table of Contents
 ## SSL
 
    * https://www.ssllabs.com/ssltest/index.html - This service performs a deep analysis of the configuration of any SSL web server on the public Internet.
+   * http://certdb.com/ - SSL/TLS data provider service. Collect the data about digital certificates - issuers, organisation, whois, expiration dates, etc... Plus, has handy filters for convenience. 
    * https://raymii.org/s/tutorials/Strong_SSL_Security_On_nginx.html - Strong SSL Security on nginx
    * https://weakdh.org/ - Weak Diffie-Hellman and the Logjam Attack
    * https://letsencrypt.org/ - Let’s Encrypt is a new Certificate Authority: It’s free, automated, and open.
    * https://filippo.io/Heartbleed/ - A checker (site and tool) for CVE-2014-0160 (Heartbleed).
-
+   * https://testssl.sh/ - A command line tool which checks a website's TLS/SSL ciphers, protocols and cryptographic flaws.
+   
 ## Security Ruby on Rails
 
    * http://brakemanscanner.org/ - A static analysis security vulnerability scanner for Ruby on Rails applications.
