@@ -57,6 +57,7 @@ Table of Contents
 
 ## Tools
 
+   * https://www.deepinfo.com/ - Deepinfo Attack Surface Platform discovers all your digital assets, monitors them 24/7, detects any issues, and notifies you quickly so you can take immediate action.
    * https://spyse.com/ - OSINT search engine that provides fresh data about the entire web, storing all data in its own DB, interconnect finding data and has some cool features.
    * http://www.metasploit.com/ - World's most used penetration testing software
    * https://findsubdomains.com - Online subdomains scanner service with lots of additional data. works using OSINT.
@@ -138,6 +139,7 @@ Table of Contents
    * https://caido.io/ - Web proxy
    * https://github.com/assetnote/kiterunner - API discovery
    * https://github.com/owasp-amass/amass - domain recon
+   * [https://columbus.elmasy.com/](https://columbus.elmasy.com/) - Columbus Project is an advanced subdomain discovery service with fast, powerful and easy to use API.
 
 ## Cheat Sheets
 
